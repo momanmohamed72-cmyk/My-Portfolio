@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mo'men Ismail | AI & Data Science Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Mo'men <span>Ismail</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section">
+        <div class="container hero-content">
+            <div class="hero-image-wrapper">
+                <img src="assets/profile.png" alt="Mo'men Ismail" class="hero-profile-img">
+                <div class="glow-effect"></div>
+            </div>
+            <h3 class="hero-subtitle">Third-year Computer Science Student</h3>
+            <h1 class="hero-title">AI & Data Science <br><span class="gradient-text">Enthusiast</span></h1>
+            <p class="hero-desc">Building intelligent models, analyzing complex datasets, and developing practical
+                solutions using modern AI technologies.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+
+            <div class="hero-scroll-indicator">
+                <a href="#about">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            <div class="about-content glass-card">
+                <div class="about-text">
+                    <p>I am a third-year Computer Science student specializing in the <strong>Artificial Intelligence &
+                            Data Science Track</strong> at the Egypt-Japan University of Science and Technology in
+                        Alexandria, Egypt.</p>
+                    <br>
+                    <p>I am deeply passionate about machine learning, data analysis, and intelligent systems. I enjoy
+                        building AI models and developing robust solutions to solve real-world problems. My academic
+                        journey is heavily focused on transitioning theoretical knowledge into practical, hands-on
+                        experience in the fields of AI and data science.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category glass-card">
+                    <h3><i class="fa-solid fa-code"></i> Programming</h3>
+                    <ul class="skill-list">
+                        <li><span>Python</span></li>
+                        <li><span>C++</span></li>
+                        <li><span>JavaScript</span></li>
+                    </ul>
+                </div>
+                <!-- AI & DS -->
+                <div class="skill-category glass-card">
+                    <h3><i class="fa-solid fa-brain"></i> AI & Data Science</h3>
+                    <ul class="skill-list">
+                        <li><span>Machine Learning</span></li>
+                        <li><span>Deep Learning</span></li>
+                        <li><span>Data Analysis</span></li>
+                        <li><span>Signal Processing</span></li>
+                    </ul>
+                </div>
+                <!-- Tools -->
+                <div class="skill-category glass-card">
+                    <h3><i class="fa-solid fa-toolbox"></i> Tools & Tech</h3>
+                    <ul class="skill-list">
+                        <li><span>Git / GitHub</span></li>
+                        <li><span>Power BI</span></li>
+                        <li><span>n8n (Automation)</span></li>
+                    </ul>
+                </div>
+                <!-- Soft Skills -->
+                <div class="skill-category glass-card">
+                    <h3><i class="fa-solid fa-people-group"></i> Soft Skills</h3>
+                    <ul class="skill-list">
+                        <li><span>Problem Solving</span></li>
+                        <li><span>Teamwork</span></li>
+                        <li><span>Communication</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+
+            <!-- Swiper Container -->
+            <div class="swiper projectSwiper">
+                <div class="swiper-wrapper">
+
+                    <!-- Slide 1: EEG Biometric -->
+                    <div class="swiper-slide project-card glass-card">
+                        <div class="project-img-container">
+                            <img src="assets/eeg.png" alt="EEG Biometric Project">
+                        </div>
+                        <div class="project-info">
+                            <h3>EEG-Based Biometric Authentication System</h3>
+                            <p>Developed a high-accuracy biometric identification system using EEG brain signals.</p>
+                            <ul class="feature-list">
+                                <li><i class="fa-solid fa-check-circle"></i> Achieved 98.5% classification accuracy</li>
+                                <li><i class="fa-solid fa-check-circle"></i> Designed a Hybrid CNN–BiLSTM deep learning
+                                    architecture</li>
+                                <li><i class="fa-solid fa-check-circle"></i> Extracted spatial–frequency features &
+                                    temporal patterns</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span>Python</span><span>TensorFlow /
+                                    Keras</span><span>MNE-Python</span><span>Scikit-learn</span><span>STFT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2: Heart Disease -->
+                    <div class="swiper-slide project-card glass-card">
+                        <div class="project-img-container">
+                            <img src="assets/heart.png" alt="Heart Disease Project">
+                        </div>
+                        <div class="project-info">
+                            <h3>Heart Disease Diagnostic System</h3>
+                            <p>Machine learning system for predicting cardiovascular disease using medical data.</p>
+                            <ul class="feature-list">
+                                <li><i class="fa-solid fa-check-circle"></i> UCI Cleveland Heart Disease Dataset</li>
+                                <li><i class="fa-solid fa-check-circle"></i> Achieved 91.8% accuracy using KNN</li>
+                                <li><i class="fa-solid fa-check-circle"></i> Compared 8+ ML models & evaluated via
+                                    Accuracy/F1</li>
+                                <li><i class="fa-solid fa-check-circle"></i> Applied feature engineering and PCA</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>Pgmpy</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3: Timetable AI -->
+                    <div class="swiper-slide project-card glass-card">
+                        <div class="project-img-container">
+                            <img src="assets/timetable.png" alt="Timetable Scheduling Project">
+                        </div>
+                        <div class="project-info">
+                            <h3>AI Timetable Scheduling System</h3>
+                            <p>An AI-based system for automatically generating conflict-free university schedules.</p>
+                            <ul class="feature-list">
+                                <li><i class="fa-solid fa-check-circle"></i> Optimization problem modeled as a CSP</li>
+                                <li><i class="fa-solid fa-check-circle"></i> Handles multi-layered hard and soft
+                                    constraints</li>
+                                <li><i class="fa-solid fa-check-circle"></i> Efficient resource and room allocation
+                                    logic</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span>Artificial Intelligence (CSP)</span><span>JavaScript</span><span>HTML / CSS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education & <span class="gradient-text">Background</span></h2>
+            <div class="education-card glass-card">
+                <div class="edu-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="edu-details">
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p class="edu-track">Artificial Intelligence & Data Science Track</p>
+                    <p class="edu-uni">Egypt-Japan University of Science and Technology</p>
+                    <span class="edu-date"><i class="fa-regular fa-calendar-alt"></i> Expected Graduation: 2027</span>
+
+                    <div class="coursework">
+                        <h4>Relevant Coursework:</h4>
+                        <div class="course-tags">
+                            <span>Artificial Intelligence</span>
+                            <span>Data Analysis</span>
+                            <span>Algorithms</span>
+                            <span>Software Engineering</span>
+                            <span>Operating Systems</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+            <div class="contact-grid">
+                <div class="contact-card glass-card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>Email Me</h3>
+                    <p><a href="mailto:momanmohamed72@gmail.com">momanmohamed72@gmail.com</a></p>
+                </div>
+                <div class="contact-card glass-card">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>Call Me</h3>
+                    <p><a href="tel:+201229847585">+20 122 984 7585</a></p>
+                </div>
+                <div class="contact-card glass-card">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/mo-men-ismail-b59a44371" target="_blank">Connect with me</a>
+                    </p>
+                </div>
+                <div class="contact-card glass-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Location</h3>
+                    <p>Alexandria, Egypt</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Mo'men Ismail | Built with Passion for AI</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
